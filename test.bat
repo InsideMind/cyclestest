@@ -23,6 +23,6 @@ ping 1.1.1.1 -n 1 -w 5000 >nul
 echo test 10 of 10
 ping 1.1.1.1 -n 1 -w 5000 >nul
 
-echo Success!!
-exit /b 0
+echo Failure - returning exit code 1
+exit /b 1
 
